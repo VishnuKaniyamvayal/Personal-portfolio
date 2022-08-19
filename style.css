@@ -1,0 +1,213 @@
+.container
+{
+    margin: 0;
+    padding: 0;
+}
+#navigationbar
+{
+    padding-left: 20rem;
+    
+}
+#navigationbar li
+{
+    padding: 1rem;
+}
+#navigationbar li a:hover
+{
+    color:#00ad54;
+}
+#logo_container
+{
+    padding-top: 1.5rem;
+    padding-left: 4rem;
+    font-family:'Roboto Mono', monospace;
+
+}
+#logo_container h2 span:hover 
+{
+   color: #00ad54;
+   transition: 1s ease-in-out;
+}
+#welcome_section h1{
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 10rem;
+    padding-top: 10rem;
+    font-size: 4rem;
+}
+#welcome_section h2{
+    font-weight: lighter;
+    font-family: 'ubuntu',sans-serif;
+    padding-left: 10rem;
+    transition: 1s all;
+
+}
+#welcome_section h2 span
+{
+    color: #00ad54;
+}
+#welcome_section img{
+    height: 70rem;
+    width: 60rem;
+}
+#welcome_section img
+{
+    height: 35rem;
+    width: 35rem;
+    margin-top: 2rem;
+    transition: 500ms all;
+}
+#welcome_section img:hover
+{
+    height: 36rem;
+    width:36rem;
+}
+#welcome_section h5{
+    padding-left: 10rem;
+    font-weight: 100;
+}
+
+#about_me_section h1{
+    font-family: 'ubuntu','sans-serif';
+    text-align: center;
+    margin-top: 2rem;
+
+
+}
+#welcome_section
+{
+    margin-bottom: 5rem;
+    padding-top: 7rem;
+    
+}
+#about_me_section img{
+    height: 24rem;
+    width: 24rem;
+    object-fit: contain;
+    margin-top:1rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+
+}
+#about_me_section h3{
+    font-size: medium;
+    font-weight:100 ;
+
+
+
+}
+#about_me_section h3 a{
+     text-decoration:none ;
+     color:#00ad54;
+     cursor: pointer;
+     
+}
+#a_tag{
+    background-color: #00ad54;
+    color: white;
+    border: none;
+    
+}
+
+
+#para_div{
+    margin-top: 5rem;
+}
+#services_section h1{
+    font-family: 'ubuntu','sans-serif';
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#cards
+{
+    align-items: center;
+    float: none ;
+    margin-left:7rem ;
+    margin-bottom: 5rem;
+}
+header{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    
+}
+#services_section a{
+    background-color: white;
+    color: black;
+    border: none;
+    
+}
+#services_section a:hover{
+    background-color: #00ad54;
+    color: whitesmoke;
+
+
+}
+#experience_section h1{
+    font-family: 'ubuntu','sans-serif';
+    text-align: center;
+    margin-top: 2rem;
+  
+}
+#loader{
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #00ad54; /* Blue */
+        border-radius: 80%;
+        width: 20rem;
+        height: 20rem;
+        animation: spin 2s linear infinite;
+        margin-top: 5rem;
+        margin-left: 6rem;
+        margin-bottom: 5rem;
+    
+      }
+      
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+        50%{ transform: rotate(90deg);}
+        70%{transform:rotate(270deg);}
+        100%{transform:rotate(360deg);}
+}
+#contact_me_section h1{
+    font-family: 'ubuntu','sans-serif';
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#contact_me_section form{
+    margin-bottom: 3rem;
+}
+#contact_me_section button{
+    background-color: #00ad54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+}
+#Message
+{
+    height: 5rem;
+}
+footer
+{   background-color: #2b2b2b;
+    height: 6rem;
+    align-items:center ;
+}
+footer i{
+    color:rgb(213, 213, 213) ;
+    text-align: center;
+}
+footer a{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+footer p{
+    color:#dedede;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+footer p span{
+    color:#9eff97;
+}
